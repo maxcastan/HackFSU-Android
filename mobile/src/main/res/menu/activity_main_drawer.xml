@@ -15,10 +15,10 @@
         android:title="Venue Map"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/nav_sponsors"
+        android:id="@+id/nav_schedule"
         android:enabled="true"
-        android:icon="@drawable/ic_group_24dp"
-        android:title="Sponsors"
+        android:icon="@drawable/ic_timer_24dp"
+        android:title="Schedule"
         app:showAsAction="ifRoom" />
 
     <item

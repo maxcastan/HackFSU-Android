@@ -27,6 +27,7 @@ import com.hackfsu.mobile.android.app.HackFSU;
 import com.hackfsu.mobile.android.app.fragment.MapsFragment;
 import com.hackfsu.mobile.android.app.R;
 import com.hackfsu.mobile.android.app.fragment.SponsorsFragment;
+import com.hackfsu.mobile.android.app.fragment.ScheduleFragment;
 
 public class MainActivity extends AppCompatActivity
         implements BaseFragment.OnFragmentInteractionListener {
@@ -133,6 +134,8 @@ public class MainActivity extends AppCompatActivity
                 fg = MapsFragment.newInstance(); break;
             case R.id.nav_sponsors:
                 fg = SponsorsFragment.newInstance(); break;
+            case R.id.nav_schedule:
+                fg=ScheduleFragment.newInstance(); break;
         }
 
         // Actual cannibal shia transaction
@@ -171,6 +174,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_live: return "Live";
             case R.id.nav_map: return "Map";
             case R.id.nav_sponsors: return "Sponsors";
+            case R.id.nav_schedule: return "Schedule";
             default: return "";
         }
     }
